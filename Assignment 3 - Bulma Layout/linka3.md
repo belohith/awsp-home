@@ -1,3 +1,3 @@
-# Link to view the hosted website for Assignment 2
+# Link to view the hosted website for Assignment 3 (Bulma Website)
 
-Link: https://app.netlify.com/sites/awsp-assign-bulma-lohith
+Link: https://awsp-assign-bulma-lohith.netlify.app/
