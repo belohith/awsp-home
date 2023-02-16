@@ -1,0 +1,27 @@
+{
+  "name": "awsp-home",
+  "version": "1.0.0",
+  "description": "A project assignment for the Advance Web Server Programming Spring 2023 Class at SUNY New Paltz.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js --watch server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belohith/awsp-home.git"
+  },
+  "private": true,
+  "author": "Lohith Bollineni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belohith/awsp-home/issues"
+  },
+  "homepage": "https://github.com/belohith/awsp-home#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon":"^2.0.20"
+  }
+}
