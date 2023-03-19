@@ -2,7 +2,9 @@
   <img src="logo.png" alt="Logo" width="100">
 </div>
 
-#  arrow mark: a fitness tracker app
+<div style="display: flex; justify-content: center; align-items: center;">
+  <h1>arrow mark: fitness tracker app</h1>
+</div>
 
 A fitness tracker app made for the Advance Web Server Programming Class Spring 2023
 
