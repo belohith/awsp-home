@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="logo.png" alt="Logo" width="300" height="300">
+  <img src="logo.png" alt="Logo" width="100">
 </div>
 
 #  arrow mark: a fitness tracker app
