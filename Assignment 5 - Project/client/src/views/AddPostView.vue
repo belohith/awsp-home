@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import Post from "../components/Post.vue";
 </script>
 
 <template>
     <div class="view">
-        <Post />
+        Add Post
     </div>
 </template>
 

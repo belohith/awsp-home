@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import Post from "../components/Post.vue";
+import Stat from '@/components/Stat.vue';
 </script>
 
 <template>
     <div class="view">
-        <Post />
+        <Stat />
     </div>
 </template>
 

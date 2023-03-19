@@ -1,23 +1,185 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+  background-color: #0c0c0c;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.red {
+  color: #dd1b37;
+}
+
+.gray {
+  text-decoration: none;
+  color: #555;
+  padding: 10px;
+  margin: 5px;
+}
+
+.logo {
+  width: 80px;
+  cursor: pointer;
+  margin: 10px 50px 10px 10px;
+}
 
 #app {
+  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #46aa5b;
   transition: 0.4s;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.view {
+  width: 100%;
+  min-width: 1100px;
+}
+
+.post-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  min-width: 500px;
+}
+
+.text {
+  color: #46aa5b;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.text-1 {
+  color: #46aa5b;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.text-2 {
+  color: #46aa5b;
+  cursor: pointer;
+}
+
+.text-3 {
+  color: #888;
+  cursor: pointer;
+  margin: 20px 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.text-4 {
+  font-size: 150%;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+  color: #555;
+}
+
+.text-5 {
+  font-size: 150%;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #46aa5b;
+  border-radius: 30px;
+  color: #0c0c0c;
+}
+
+.text-6 {
+  color: #46aa5b;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.text-7 {
+  color: #46aa5b;
+  cursor: pointer;
+  font-size: 200%;
+}
+
+.text-8 {
+  color: #46aa5b;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 300%;
+  background-color: #1d1c1c;
+  text-align: center;
+  border-radius: 100px;
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.profile-photo {
+  width: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.profile-photo-1 {
+  width: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.post-photo {
+  width: 500px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  font-weight: bold;
+}
+
+.navbar div {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-10{
+  margin-bottom: 50px;
 }
 
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
+  }
+
+  .gray:hover {
+    background-color: transparent;
   }
 }
 
