@@ -1,3 +1,4 @@
+![Logo](/logo.png)
 #  arrow mark: a fitness tracker app
 
 A fitness tracker app made for the Advance Web Server Programming Class Spring 2023
