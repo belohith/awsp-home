@@ -173,6 +173,17 @@ a,
   margin-bottom: 50px;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem; /* Remove scrollbar space */
+  background: #111111; /* Optional: just make scrollbar invisible */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #46aa5b; /* Optional: just make scrollbar invisible */
+  border-radius: 10px;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
