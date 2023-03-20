@@ -1,30 +1,38 @@
-// import { reactive } from "vue";
+import { reactive } from "vue";
+import { useRouter } from "vue-router";
 
 
-// const session = reactive({
-//     user:null as User | null,
+const session = reactive({
+    user:null as User | null,
 
-// })
+})
 
 
-// interface User{
-//     id?: number;
-//     name: string;
-//     email?: string;
-//     photo?: string;
-//     token?: string;
-// }
+interface User{
+    id?: number;
+    name: string;
+    email?: string;
+    photo?: string;
+    token?: string;
+}
 
-// export function useSession() {
-//     return session;
-// }
+export function useSession() {
+    return session;
+}
 
-// export function login() {
-//     session.user ={
-//         name:'Lohith Bollineni',
-//     }
-// }
+export function login() {
+    session.user ={
+        name:'Lohith Bollineni',
+    }
+}
 
-// export function logout() {
-//     session.user =null;    
-// }
+export function useLogout() {
+    const router = useRouter();
+  
+    return function () {
+      console.log({ router });
+      session.user = null;
+  
+      router.push("/login");
+    };
+  }

@@ -5,9 +5,8 @@ import FriendsView from '../views/FriendsView.vue'
 import StatsView from '../views/StatsView.vue'
 import ProfileView from '../views/ProfileView.vue'
 import AddPostView from '../views/AddPostView.vue'
-// import ProductsVue from '@/views/Products.vue'
-// import LoginVue from '@/views/Login.vue'
-// import { useSession } from '@/model/session'
+import WelcomeView from '../views/WelcomeView.vue'
+import { useSession } from '@/model/session'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,16 +16,7 @@ const router = createRouter({
     { path: '/stats', name: 'stats', component: StatsView },
     { path: '/profile', name: 'profile', component: ProfileView },
     { path: '/addpost', name: 'addpost', component: AddPostView },
-    // { path: '/products', name: 'products', component: ProductsVue, beforeEnter: secureRoute },
-    // { path: '/login', name: 'login', component: LoginVue },
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (About.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import('../views/AboutView.vue')
-    
+    { path: '/welcome', name: 'welcome', component: WelcomeView },
   ]
 })
 
