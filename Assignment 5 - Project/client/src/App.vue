@@ -44,6 +44,7 @@ const loggedIn = ref(false)
         <RouterLink v-if="loggedIn" to="/profile" class="m-10">Profile</RouterLink>
         <RouterLink v-if="loggedIn" to="/addpost">Add Post</RouterLink> 
         <RouterLink v-if="loggedIn" to="/welcome" @click="logout" class="red">Logout</RouterLink>
+        <p v-if="!loggedIn">Select any account</p>
         <RouterLink v-if="!loggedIn" to="/" class="green" @click="login('Lohith Bollineni')">Lohith Bollineni</RouterLink>
         <RouterLink v-if="!loggedIn" to="/" class="green" @click="login('Bradley C')">Bradley C</RouterLink>
         <RouterLink v-if="!loggedIn" to="/" class="green" @click="login('Britney S')">Britney S</RouterLink>

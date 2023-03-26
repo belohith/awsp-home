@@ -7,8 +7,8 @@ import post from '../assets/postimage.png';
     <div class="post-view">
         <div class="row">
         <div><img :src="profile" alt="Profile" class="profile-photo"  /></div>
-        <div class="text-1 mr-10">asha</div>
-        <div class="text-2">@asha</div>
+        <div class="text-1 mr-10">Lohith Bollineni</div>
+        <div class="text-2">@belohith</div>
         </div>
         <div class="text-3">Ran 25 miles for the first time non-stop!</div>
         <div><img :src="post" alt="Post" class="post-photo"  /></div>
