@@ -12,4 +12,6 @@ New features will be updated every week!
 
 Tech Stack/ Skills learned:
 
-> HTML5 · CSS3 · JavaScript · TypeScript · GitHub (version control) · VueJS (frontend framework) · NodeJS (backend) · npm (package manager) · Render (deploy)
+```
+HTML5 · CSS3 · JavaScript · TypeScript · GitHub (version control) · VueJS (frontend framework) · NodeJS (backend) · npm (package manager) · Render (deploy)
+```
