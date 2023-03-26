@@ -10,7 +10,7 @@ A fitness tracker app made for the Advance Web Server Programming Class Spring 2
 
 New features will be updated every week!
 
-Tech Stack/ Skills learned:
+Tech Stack/ Skills used:
 
 ```
 HTML5 · CSS3 · JavaScript · TypeScript
