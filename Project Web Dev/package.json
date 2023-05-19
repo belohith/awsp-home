@@ -1,0 +1,32 @@
+{
+  "name": "aws-web-dev-lohith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd client && npm install",
+    "dev": "nodemon --watch server server/index",
+    "build": "cd client && npm run build",
+    "start": "node server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongodb": "^4.1.4",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
